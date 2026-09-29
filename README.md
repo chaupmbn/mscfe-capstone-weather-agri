@@ -18,7 +18,7 @@ Code for our capstone on how weather affects agricultural commodities. We study:
 ## How to run
 
 **Google Colab.** Open the notebook in Colab (File → Open notebook → GitHub, then paste this repository's URL, or go to
-`https://colab.research.google.com/github/<github-user>/<repo>/blob/main/weather_agri_commodities.ipynb`),
+`https://colab.research.google.com/github/chaupmbn/mscfe-capstone-weather-agri/blob/main/weather_agri_commodities.ipynb`),
 then choose Runtime → Run all. Missing packages install automatically, and the data downloads in under a minute.
 
 **Locally.**
