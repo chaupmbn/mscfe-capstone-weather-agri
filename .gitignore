@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# Bloomberg data from the instructor: keep out of the public repo
+data/raw/Ags.xlsx
