@@ -11,8 +11,9 @@ Code for our capstone on how weather affects agricultural commodities. We study:
 
 | Path | What it is |
 |---|---|
+| `Solution_Design_Document.pdf` | One-page summary for readers who do not program: business case, specifications, architecture and what each part of the code does |
 | `weather_agri_commodities.ipynb` | Main notebook: data pipeline, EDA, cointegration and error correction models, weather, yield and price regressions, US vs EU tests, key results (executed, outputs included) |
-| `bloomberg_daily_analysis.ipynb` | Companion notebook on daily Bloomberg data (1990–2026) supplied by our instructor: serial correlation, mean reversion, ARIMA, GARCH, seasonality, corn and wheat over 36 years, a US vs EU comparison with cash prices on both sides, and the basis (executed, outputs included) |
+| `bloomberg_daily_analysis.ipynb` | Companion notebook on daily Bloomberg data (1990–2026) that we obtained: serial correlation, mean reversion, ARIMA, GARCH, seasonality, corn and wheat over 36 years, a US vs EU comparison with cash prices on both sides, and the basis (executed, outputs included) |
 | `data/raw/` | Cached downloads behind the results shown in the main notebook |
 | `requirements.txt` | Python dependencies |
 
@@ -31,7 +32,7 @@ jupyter lab weather_agri_commodities.ipynb
 
 The main notebook reuses the CSV files in `data/raw/` (downloaded on 28 September 2026), so a re-run gives the same results. A missing file is copied from commit `9c1db45` of this repository. To download the latest data, set `REFRESH_DATA = True` in Section 1.
 
-The companion notebook needs `data/raw/Ags.xlsx`, a Bloomberg extract supplied by our instructor. Bloomberg data may not be redistributed, so the file is not in this repository (see `.gitignore`). The saved outputs show the results.
+The companion notebook needs `data/raw/Ags.xlsx`, a Bloomberg extract. The file is not in this repository (see `.gitignore`), so the saved outputs show the results.
 
 Tested with Python 3.10.14, numpy 1.26.4, pandas 2.3.0, scipy 1.15.3, statsmodels 0.14.4, arch 7.0.0 and matplotlib 3.8.3.
 

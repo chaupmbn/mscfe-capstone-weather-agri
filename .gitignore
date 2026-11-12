@@ -2,5 +2,5 @@
 __pycache__/
 .DS_Store
 
-# Bloomberg data from the instructor: keep out of the public repo
+# Bloomberg data: keep out of the public repo
 data/raw/Ags.xlsx
