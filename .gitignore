@@ -4,3 +4,9 @@ __pycache__/
 
 # Bloomberg data: keep out of the public repo
 data/raw/Ags.xlsx
+
+# VS Code
+.vscode
+
+# Virtual env
+venv
