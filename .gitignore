@@ -9,4 +9,5 @@ data/raw/Ags.xlsx
 .vscode
 
 # Virtual env
-venv
+venv/
+.venv/
